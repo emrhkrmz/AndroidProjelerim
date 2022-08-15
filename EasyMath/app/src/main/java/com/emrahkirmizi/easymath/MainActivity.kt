@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                 myTextViewSonuc.text = "dogru sonuc = $dogruSonuc"
             }
 
-        } else if (myRandomInt1 <= myRandomInt2) {
+        } else if (myRandomInt1 < myRandomInt2) {
             myTextView1.text = "$myRandomInt1 * $myRandomInt2"
             myButton2.text = "$myRandomYanlisSonuc1"
             myButton3.text = "$dogruSonuc"
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                 myTextViewSonuc.text = "dogru sonuc = $dogruSonuc"
             }
 
-        } else if (myRandomInt1 >= myRandomInt2) {
+        } else if (myRandomInt1 > myRandomInt2) {
             myTextView1.text = "$myRandomInt1 * $myRandomInt2"
             myButton2.text = "$myRandomYanlisSonuc1"
             myButton3.text = "$myRandomYanlisSonuc2"
